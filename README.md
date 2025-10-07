@@ -52,7 +52,7 @@ A production-ready RAG system that processes multiple PDFs simultaneously, extra
 
 ### Workflow
 
-```bash
+```plaintext
 1. Load PDFs → 2. Parse (text/tables/images) → 3. Summarize each element
     ↓
 4. Store summaries in vector DB → 5. Store raw content separately
@@ -106,7 +106,7 @@ Builds structured knowledge graphs from medical research papers, extracting enti
 
 ### Workflow
 
-```bash
+```plaintext
 1. Load JSON papers → 2. Split into chunks → 3. Extract entities & relationships
     ↓
 4. Build graph documents → 5. Store in Neo4j → 6. Query & visualize
